@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width")
+        title=title
+        link(rel="stylesheet" href="/src/vendor/vendor.sass")
+        link(rel="stylesheet" href="/src/styles/main.sass")
+        script(type="module" src="/src/vendor/vendor.js")
+        script(type="module" src="/src/scripts/index.js")
+    body
+        h1=title
+        include ../components/header.pug
